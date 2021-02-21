@@ -1,0 +1,9 @@
+<!--detail.wxml-->
+<view class="warp">
+<view wx:for="{{shuzu}}">
+  <view class="title">{{item.title}}</view>
+  <view class="cTime">{{item.cTime}}</view>
+  <view class="img"><image src="{{item.img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+  <view class="content">{{item.content}}</view>
+  <view class="close" bindtap="closepage"> 返回 </view>
+</view></view>

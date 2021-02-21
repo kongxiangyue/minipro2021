@@ -1,0 +1,28 @@
+.flex-container {
+  margin: 50rpx auto;
+  width: 740rpx;
+  height: 600rpx;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;/*更改align-content属性依次替换为stretch | flex-start| center | flex-end | space-between | space-around | space-evenly*/
+}
+.item {
+  height: 100rpx; /*当align-items的属性值替换为stretch，删掉height属性*/
+  line-height: 100rpx;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: skyblue;
+}
+.a {
+  width: 300rpx;
+}
+
+.b {
+  width: 350rpx;
+}
+
+.c {
+  width: 400rpx;
+}

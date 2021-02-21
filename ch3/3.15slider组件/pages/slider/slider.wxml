@@ -1,0 +1,11 @@
+<view class="demo-box">
+  <view class="title">15.slider小案例</view>
+  <view class="title">(1)滑动条右侧显示当前进度值</view>
+  <slider min="0" max="100" value="30" show-value />
+  <view class="title">(2)自定义滑动条颜色与滑块样式</view>
+  <slider min="0" max="100" value="30" block-size="20" block-color="gray" activeColor="skyblue" />
+  <view class="title">(3)禁用滑动条</view>
+  <slider disabled />
+  <view class="title">(4)增加滑动条监听事件</view>
+  <slider min="0" max="100" value="30" bindchange="sliderChange" />
+</view>

@@ -1,0 +1,12 @@
+<view class="top">
+<image src="../img/p30.png"></image>
+</view>
+<view class='product'>
+<view class="title">HUAWEI P30 麒麟980 超感光徕卡三摄 屏内指纹 双景录像 8GB+64GB 全网通版（天空之境）</view>
+<view class="id">商品编码  2601010102103</view>
+<view class="price">价   格 ¥3988.00 </view>
+</view>
+<view class="buttonarea" >
+    <button class="btn" type="primary" bindtap="orderpay">去结算</button>
+    <button class="btn" type="warn" bindtap="clear">清空</button>
+</view>

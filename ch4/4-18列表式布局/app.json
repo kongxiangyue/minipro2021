@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/index/index",
+    "pages/logs/logs"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "电影列表小案例",
+    "navigationBarTextStyle": "white"
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

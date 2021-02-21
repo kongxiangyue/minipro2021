@@ -1,0 +1,8 @@
+<view class="flex-container">
+  <view class="item a">元素1</view>
+  <view class="item b">元素2</view>
+  <view class="item c">元素3</view>
+  <view class="item b">元素4</view>
+  <view class="item a">元素5</view>
+</view>
+

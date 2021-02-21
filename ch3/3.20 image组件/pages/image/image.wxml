@@ -1,0 +1,29 @@
+<view class="demo-box">
+  <view class="title">20.image小案例</view>
+  <view class="title">(1)不保持纵横比缩放图片，使图片完全适应</view>
+  <image src="{{src}}" mode="scaleToFill"></image>
+  <view class="title">(2)保持纵横比缩放图片，使图片的长边能完全显示出来</view>
+  <image src="{{src}}" mode="aspectFit"></image>
+  <view class="title">(3)保持纵横比缩放图片，只保证图片的短边能完全显示出来</view>
+  <image src="{{src}}" mode="aspectFill"></image>
+  <view class="title">(4)宽度不变，高度自动变化，保持原图宽高比不变</view>
+  <image src="{{src}}" mode="widthFix"></image>
+  <view class="title">(5)不缩放图片，只显示图片的顶部区域</view>
+  <image src="{{src}}" mode="top"></image>
+  <view class="title">(6)不缩放图片，只显示图片的底部区域</view>
+  <image src="{{src}}" mode="bottom"></image>
+  <view class="title">(7)不缩放图片，只显示图片的中间区域</view>
+  <image src="{{src}}" mode="center"></image>
+  <view class="title">(8)不缩放图片，只显示图片的左边区域</view>
+  <image src="{{src}}" mode="left"></image>
+  <view class="title">(9)不缩放图片，只显示图片的右边区域</view>
+  <image src="{{src}}" mode="right"></image>
+  <view class="title">(10)不缩放图片，只显示图片的左上边区域</view>
+  <image src="{{src}}" mode="top left"></image>
+  <view class="title">(11)不缩放图片，只显示图片的右上边区域</view>
+  <image src="{{src}}" mode="top right"></image>
+  <view class="title">(12)不缩放图片，只显示图片的左下边区域</view>
+  <image src="{{src}}" mode="bottom left"></image>
+  <view class="title">(13)不缩放图片，只显示图片的右下边区域</view>
+  <image src="{{src}}" mode="bottom right"></image>
+</view>

@@ -1,0 +1,24 @@
+<view class="demo-box">
+  <view class="title">10.lable小案例</view>
+  <view class="title">(1)利用for属性</view>
+  <checkbox-group>
+    <checkbox id="tiger" checked />
+    <label for="tiger">老虎</label>
+    <checkbox id="elephant" />
+    <label for="elephant">大象</label>
+    <checkbox id="lion" />
+    <label for="lion">狮子</label>
+  </checkbox-group>
+  <view class="title">(2)label包裹组件</view>
+  <checkbox-group>
+    <label>
+      <checkbox checked />老虎
+    </label>
+    <label>
+      <checkbox/>大象
+    </label>
+    <label>
+      <checkbox/>狮子
+    </label>
+  </checkbox-group>
+</view>

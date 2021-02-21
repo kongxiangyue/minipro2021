@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "商品列表",
+    "navigationBarTextStyle": "white"
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

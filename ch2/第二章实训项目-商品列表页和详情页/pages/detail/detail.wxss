@@ -1,0 +1,22 @@
+
+/*商品标题样式*/
+.goods{
+  text-align: center;
+}
+.title {
+  font-size: 34rpx;
+}
+/*商品价格样式*/
+.price {
+  color: #f00;
+  font-size: 32rpx;
+  padding-top: 20rpx;
+  padding-left: 15rpx;
+}
+/*商品展示外部样式*/
+.box-demo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100rpx;
+}

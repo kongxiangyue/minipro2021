@@ -1,0 +1,9 @@
+<view class="demo-box">
+  <view class="title">14.radio小案例</view>
+  <view class="title">利用for循环批量生成</view>
+  <radio-group bindchange="radioChange">
+    <block wx:for="{{radioItems}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </block>
+  </radio-group>
+</view>

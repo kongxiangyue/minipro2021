@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="body" bindtap="location1">
+获取地理位置
+</view>
+<view  class="body">{{context}}</view>
+
+
+
+<view class="body" bindtap="location2">
+开始录音
+</view>

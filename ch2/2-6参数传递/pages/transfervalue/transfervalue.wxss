@@ -1,0 +1,5 @@
+view {
+  margin: 50rpx;
+  padding: 150rpx;
+  border: 1px solid gray;
+}

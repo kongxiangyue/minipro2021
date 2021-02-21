@@ -1,0 +1,12 @@
+<view class="data"><input placeholder="请输入a" focus="true" bindinput="binda"></input></view>
+<view class="data"><input placeholder="请输入b" focus="true" bindinput="bindb"></input></view>
+<view class="partition"></view>
+<view class="arithmetic"><view bindtap='Callback1'><button size="mini" class='bt' >Callback调Callback</button></view><view>{{Callback1}}</view></view>
+<view class="arithmetic"><view  bindtap='Promise1'><button size="mini" class='bt' >Callback调Promise</button></view><view>{{Promise1}}</view></view>
+<view class="arithmetic"><view  bindtap='Promise2'><button size="mini" class='bt' >Promise调Callback</button></view><view>{{Promise2}}</view></view>
+<view class="arithmetic"><view  bindtap='Callback2'><button size="mini" class='bt' >Promise调Promise</button></view><view>{{Callback2}}</view></view>
+
+
+ 
+     
+

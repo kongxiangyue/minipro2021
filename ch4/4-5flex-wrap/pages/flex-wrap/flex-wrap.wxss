@@ -1,0 +1,17 @@
+.flex-container {
+  margin: 50rpx auto;
+  width: 740rpx;
+  height: 600rpx;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap; /*更改flex-wrap属性依次替换为wrap, wrap-reverse*/
+}
+.item {
+  width: 200rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: skyblue;
+}

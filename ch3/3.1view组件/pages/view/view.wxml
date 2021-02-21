@@ -1,0 +1,11 @@
+<view class="demo-box">
+  <view class="title">1.view小案例</view>
+  <view class="title">(1)不阻止父容器的view-hover</view>
+  <view class="view-parent" hover-class="view-hover">我是父类容器
+    <view class="view-son" hover-class="view-hover">我是子类容器</view>
+  </view>
+  <view class="title">(2)阻止父容器的view-hover</view>
+  <view class="view-parent" hover-class="view-hover">我是父类容器
+    <view class="view-son" hover-class="view-hover" hover-stop-propagation hover-start-time="3000" hover-stay-time="4000">我是子类容器</view>
+  </view>
+</view>

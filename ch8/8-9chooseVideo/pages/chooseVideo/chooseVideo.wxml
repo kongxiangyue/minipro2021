@@ -1,0 +1,5 @@
+<view class="section tc">
+  <video  id="myVideo"  src="{{src}}" danmu-list="{{danmuList}}" enable-danmu  danmu-btn  controls ></video>
+</view>
+<button type="primary" bindtap="uploadvideo">上传视频</button>
+<button type="primary" bindtap="audioPlay">播放</button>

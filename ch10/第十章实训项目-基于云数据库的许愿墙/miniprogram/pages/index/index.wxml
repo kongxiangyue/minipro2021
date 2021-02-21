@@ -1,0 +1,8 @@
+
+ <canvas class='indexBg' canvas-id="myCanvas">
+    <cover-view class="userinfo" bindtap="hideAlert">
+      <cover-view class="musicLable">计算机</cover-view>
+      <cover-view class="musicLableTip">计算机</cover-view>
+    </cover-view>
+  </canvas>
+ 

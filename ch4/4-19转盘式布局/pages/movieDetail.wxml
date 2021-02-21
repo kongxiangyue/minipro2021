@@ -1,0 +1,35 @@
+<view class="bg">
+  <view class="movie">
+    <view class="pic">
+      <image src="/images/one.jpg"></image>
+      <!--电影图片-->
+    </view>
+    <view class="outer">
+      <!--电影标题-->
+      <view class="name">流浪地球</view>
+      <view class="item">中国 | 2019</view>
+      <view class="item">科幻/动作片</view>
+      <view class="item">郭帆</view>
+      <view class="item">屈楚萧 李光洁</view>
+    </view>
+  </view>
+</view>
+<view class="detail">
+  <!--电影详情-->
+  《流浪地球》根据刘慈欣同名小说改编，故事设定在2075年，讲述了太阳即将毁灭，已经不适合人类生存，而面对绝境，人类将开启“流浪地球”计划，试图带着地球一起逃离太阳系，寻找人类新家园的故事。
+</view>
+<!--分割线-->
+<view class="hr"></view>
+<!--电影海报-->
+<view class="zhinan">电影海报</view>
+<scroll-view scroll-x="true">
+  <view class="haibaoitem">
+    <image src="/images/haibao1.jpg" style="height:180rpx;width:250rpx"></image>
+  </view>
+  <view class="haibaoitem">
+    <image src="/images/haibao2.jpg" style="height:180rpx;width:250rpx"></image>
+  </view>
+  <view class="haibaoitem">
+    <image src="/images/haibao3.jpg" style="height:180rpx;width:250rpx"></image>
+  </view>
+</scroll-view>

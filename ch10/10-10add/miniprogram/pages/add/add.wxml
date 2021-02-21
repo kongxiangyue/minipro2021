@@ -1,0 +1,16 @@
+ <view class="doc" bindtap="lte">插入之前大于等于30岁的记录</view>
+ <view wx:for="{{lte}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}</text>
+ </view>
+ </view>
+<view class="doc" bindtap="add">add插入之后大于等于30岁的记录</view>
+ <view wx:for="{{add}}">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}       </text>
+    </view>
+</view>
+
+
+
+

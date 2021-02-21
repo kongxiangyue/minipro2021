@@ -1,0 +1,16 @@
+<view class="demo-box">
+<view class="title">4.icon小案例</view>
+<view class="title">(1)实现大小变化</view>
+<block wx:for="{{iconSize}}">
+<icon type="success" size="{{item}}" />
+</block>
+<view class="title">(2)实现内容变化</view>
+<block wx:for="{{iconType}}">
+<icon type="{{item}}" size="40" />
+</block>
+<view class="title">(3)实现颜色变化</view>
+<block wx:for="{{iconColor}}">
+<icon type="success" size="40" color="{{item}}" />
+</block>
+</view>
+

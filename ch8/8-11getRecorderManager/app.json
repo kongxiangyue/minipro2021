@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/recorderManager/recorderManager",
+      "pages/logs/logs"
+   
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "RecorderManager",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

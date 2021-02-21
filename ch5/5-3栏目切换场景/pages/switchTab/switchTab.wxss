@@ -1,0 +1,25 @@
+
+/*布局样式*/
+.content {
+  display: flex;
+  flex-direction: row;
+}
+/*左边样式*/
+.left {
+  width: 25%;
+  font-size: 30rpx;
+}
+scroll-view {
+  height: 90%;
+}
+/*左边元素样式*/
+.left view {
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+/*右边样式*/
+.right {
+  width: 75%;
+}
+

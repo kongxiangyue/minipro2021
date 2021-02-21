@@ -1,0 +1,56 @@
+/*背景颜色*/
+.bg {
+  width: 100%;
+  background-color: #36648b;
+}
+/*头部布局*/
+.movie {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+}
+.pic image {
+  width: 200rpx;
+  height: 300rpx;
+}
+/*电影信息样式*/
+.outer {
+  margin: 10rpx 20rpx;
+}
+.name {
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+.item {
+  font-size: 24rpx;
+  color: #fff;
+  line-height: 50rpx;
+}
+/*电影简介样式*/
+.detail {
+  font-size: 26rpx;
+  line-height: 50rpx;
+  margin: 20rpx;
+  text-indent: 1em;
+}
+/*分割线样式*/
+.hr {
+  height: 20rpx;
+  width: 100%;
+  background-color: #ccc;
+  opacity: 0.2;
+}
+.zhinan {
+  font-size: 40rpx;
+  padding: 16rpx;
+}
+scroll-view {
+  height: 350rpx;
+  width: 100%;
+  white-space: nowrap;
+}
+/*电影海报样式*/
+.haibaoitem {
+  padding: 10rpx;
+  display: inline-block;
+}

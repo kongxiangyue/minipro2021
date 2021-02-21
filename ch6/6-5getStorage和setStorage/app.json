@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/setStorage/setStorage",
+    "pages/getStorage/getStorage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "getStorage",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

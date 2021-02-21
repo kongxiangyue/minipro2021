@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/getWeRunData/getWeRunData"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "getWeRunData微信步数",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

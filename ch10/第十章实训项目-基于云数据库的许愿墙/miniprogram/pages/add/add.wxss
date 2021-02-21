@@ -1,0 +1,12 @@
+.in{
+  border: 1px solid #ffffff;
+}
+.title{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color:#ffffff;
+
+}
+page{
+   background-color: #005F8C;
+}

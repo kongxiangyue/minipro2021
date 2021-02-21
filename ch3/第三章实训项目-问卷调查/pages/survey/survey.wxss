@@ -1,0 +1,9 @@
+.content {
+  padding: 30rpx;
+}
+button {
+  margin: 40rpx;
+}
+.title {
+  margin-top: 20rpx;
+}

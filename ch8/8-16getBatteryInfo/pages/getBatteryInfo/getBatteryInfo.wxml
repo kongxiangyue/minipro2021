@@ -1,0 +1,3 @@
+
+<view>你的电量是{{level}}%</view>
+<view>你的充电状态是{{isCharging}}</view>

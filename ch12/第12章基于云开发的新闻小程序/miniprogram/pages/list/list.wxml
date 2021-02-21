@@ -1,0 +1,58 @@
+ <view class="head">
+    <view class="head1">
+       <scroll-view class="scroll-view_class" scroll-x="true">
+          <view class="scroll-view_class">
+             <view>
+               <view class="{{flag==0?'choose':'nochoose'}}" id="0" bindtap="select">推荐</view>
+             </view>
+             <view>
+               <view class="{{flag==1?'choose':'nochoose'}}" id="1" bindtap="select">科技</view>
+             </view>
+             <view>
+               <view class="{{flag==2?'choose':'nochoose'}}" id="2" bindtap="select">财经</view>
+             </view>
+             <view>
+               <view class="{{flag==3?'choose':'nochoose'}}" id="3" bindtap="select">汽车</view>
+             </view>
+             <view>
+               <view class="{{flag==4?'choose':'nochoose'}}" id="4" bindtap="select">时尚</view>
+             </view>
+             <view>
+               <view class="{{flag==5?'choose':'nochoose'}}" id="5" bindtap="select">图片</view>
+             </view>
+             <view>
+               <view class="{{flag==6?'choose':'nochoose'}}" id="6" bindtap="select">游戏</view>
+             </view>
+             <view>
+               <view class="{{flag==7?'choose':'nochoose'}}" id="7" bindtap="select">房产</view>
+             </view>
+             <view>
+               <view class="{{flag==8?'choose':'nochoose'}}" id="8" bindtap="select">教育</view>
+             </view>
+             <view>
+               <view class="{{flag==9?'choose':'nochoose'}}" id="9" bindtap="select">体育</view>
+             </view>
+          </view>
+       </scroll-view>
+    </view>
+
+  </view>
+
+<view class="body">
+<!--文章列表模板 begin-->
+<template name="itmes">
+  <navigator url="../../pages/detail/detail?detail_id={{_id}}" hover-class="navigator-hover">
+    <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infos">
+      <view class="title">{{title}}</view>
+      <view class="date">{{cTime}}</view>
+    </view>
+  </navigator>
+</template>
+<!--文章列表模板 end-->
+
+<!--循环输出列表 begin-->
+<view wx:for="{{shuzu}}" class="list">
+  <template is="itmes" data="{{...item}}" />
+</view>
+</view>

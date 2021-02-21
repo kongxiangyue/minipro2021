@@ -1,0 +1,18 @@
+/* pages/relative/relative.wxss */
+.container {
+  position: relative;
+  width: 700rpx;
+  height: 400rpx;
+  border:1px solid #000000;
+  margin-top: 150rpx;
+
+}
+.item {
+    position: absolute;
+   width: 150rpx;
+  height: 100rpx;
+  left:490rpx;
+  top: 230rpx;
+  background-color: skyblue;
+   border:1px solid #000000;
+}

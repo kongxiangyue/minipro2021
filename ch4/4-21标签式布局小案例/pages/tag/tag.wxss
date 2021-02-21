@@ -1,0 +1,78 @@
+/*搜索框样式*/
+.search {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+}
+/*搜索框背景样式*/
+.searchBg {
+  background-color: #e8e8ed;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+}
+/*搜索图标样式*/
+.searchBg image {
+  margin: 10rpx;
+}
+/*输入框样式*/
+.searchBg input {
+  height: 60rpx;
+  font-size: 30rpx;
+}
+/*取消按钮样式*/
+.btn {
+  font-size: 26rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+  margin-left: 24rpx;
+  border: 1px solid #ccc;
+  width: 100rpx;
+  text-align: center;
+  background-color: #e8e8ed;
+  border-radius: 6rpx;
+}
+/*分割线样式*/
+.hr {
+  border: 1px solid #eee9e9;
+  opacity: 0.6;
+}
+/*标题样式*/
+.title {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+}
+/*热门搜索样式*/
+.left {
+  width: 80%;
+  font-size: 30rpx;
+}
+/*换一批样式*/
+.right {
+  width: 20%;
+  font-size: 25rpx;
+  color: #ec3131;
+  text-align: right;
+}
+/*标签布局样式*/
+.tag {
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*标签样式*/
+.tag view {
+  background-color: #e8e8ed;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 26rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}

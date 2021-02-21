@@ -1,0 +1,24 @@
+<view class="doc" bindtap="update1">韩老师记录update之前</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{update1.name}}--{{update1.password}}--{{update1.age}}--{{update1.sex}}--{{update1.tel}}       </text>
+</view>
+
+<view class="doc" bindtap="update2">韩老师记录update之后</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{update2.name}}--{{update2.password}}--{{update2.age}}--{{update2.sex}}--{{update2.tel}}       </text>   
+</view>
+
+
+<view class="doc" bindtap="set1">李老师记录set之前</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{set1.name}}--{{set1.password}}--{{set1.age}}--{{set1.sex}}--{{set1.tel}}       </text>  
+</view>
+
+<view class="doc" bindtap="set2">李老师记录set之后</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{set2.name}}--{{set2.password}}--{{set2.age}}--{{set2.sex}}--{{set2.tel}}       </text>
+</view>
+
+
+
+

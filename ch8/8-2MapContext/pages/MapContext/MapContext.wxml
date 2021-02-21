@@ -1,0 +1,16 @@
+<map 
+  id="ditu" 
+  style="width: 710rpx; height: 250px;" 
+  latitude="{{latitude}}" 
+  longitude="{{longitude}}" 
+  markers="{{markers}}" 
+  show-location>
+</map>
+<button bindtap="getCenterLocation" type="primary">获取地图中心的经纬度</button>
+<button bindtap="moveToLocation"  type="primary">将地图中心移动到当前定位点</button>
+<button bindtap="translateMarker" type="primary">平移marker，带动画</button>
+<button bindtap="includePoints" type="primary">缩放视野展示所有经纬度</button>
+<button bindtap="scaleClick" type="primary">获取当前地图的缩放级别</button>
+<button bindtap="getRegionClick" type="primary">获取当前地图的视野范围</button>
+
+

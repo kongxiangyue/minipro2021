@@ -1,0 +1,3 @@
+<view class="title">{{item.title}}</view>
+<view class='date'>{{item.date}}</view>
+<view class="address">{{item.address}}</view>

@@ -1,0 +1,9 @@
+view {
+  width: 300rpx;
+  height: 500rpx;
+  position: absolute;
+  left: 200rpx;
+  top: 200rpx;
+  background-color:skyblue;
+  border:1px solid #000;
+}

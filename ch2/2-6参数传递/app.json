@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/transfervalue/transfervalue",
+    "pages/receive/receive",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "跨页面传递参数",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

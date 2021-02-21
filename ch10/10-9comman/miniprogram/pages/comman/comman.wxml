@@ -1,0 +1,16 @@
+ <view class="doc" bindtap="lte">lte小于等于30岁的记录</view>
+ <view wx:for="{{lte}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}</text>
+ </view>
+ </view>
+<view class="doc" bindtap="in">in在25和30岁的记录</view>
+ <view wx:for="{{in}}">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}       </text>
+    </view>
+</view>
+
+
+
+

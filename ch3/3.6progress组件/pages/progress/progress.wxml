@@ -1,0 +1,7 @@
+<view class="demo-box">
+  <view class="title">6.progress小案例</view>
+  <view class="title">增加和减少进度</view>
+  <progress percent="{{progress}}" stroke-width="10rpx" show-info></progress>
+  <button bindtap="add">增加10%</button>
+  <button bindtap="reduce">减少10%</button>
+</view>

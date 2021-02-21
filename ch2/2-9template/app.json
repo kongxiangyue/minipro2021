@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/template/body",
+    "pages/template/footer",
+    "pages/template/header"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "template",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

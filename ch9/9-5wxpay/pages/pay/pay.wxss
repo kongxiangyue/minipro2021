@@ -1,0 +1,37 @@
+.buttonarea {
+    margin: 20px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.btn {
+  margin-top: 15px;
+}
+.title{
+  font-weight: 400;
+  font-size: 17px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.id {margin-top: 15px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  color:rgb(94, 94, 167);
+  line-height: 1em;
+  list-style: none;
+  overflow: hidden;}
+
+  .price{margin-top: 8px;
+  padding-bottom: 8x;
+  font-size: 13px;
+  color:rgb(94, 94, 167);
+  line-height: 1em;
+  list-style: none;
+  overflow: hidden;}
+
+  page{background:#efdee6;}

@@ -1,0 +1,17 @@
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.gray {
+  background-color: gray;
+}
+view {
+  display: block;
+  height: 200rpx;
+  border: 1px solid black;
+}

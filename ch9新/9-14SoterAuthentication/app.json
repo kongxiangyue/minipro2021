@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/SoterAuthentication/SoterAuthentication",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "指纹认证",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

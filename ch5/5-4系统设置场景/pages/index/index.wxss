@@ -1,0 +1,6 @@
+.setitem{
+  height: 30rpx;
+}
+view {
+  padding-left: 10rpx;
+}

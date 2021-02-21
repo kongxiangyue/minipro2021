@@ -1,0 +1,3 @@
+<view class="body-view">
+    <slider bindchange="la" min="50" max="200" show-value/>
+  </view>

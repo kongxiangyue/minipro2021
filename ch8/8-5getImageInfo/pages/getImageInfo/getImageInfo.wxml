@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="choose"> 请选择图片 </button>
+  </view>
+ <view > 你选中的图片的类型是{{type}}</view>
+  <view > 你选中的图片的height是{{height}}</view>
+  <view > 你选中的图片的width是{{width}}</view>
+</view>

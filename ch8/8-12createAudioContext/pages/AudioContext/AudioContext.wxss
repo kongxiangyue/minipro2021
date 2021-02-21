@@ -1,0 +1,5 @@
+.b1{
+  margin-left: 50rpx;
+
+}
+page{background-color: #000000}

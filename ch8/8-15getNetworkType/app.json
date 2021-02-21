@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/getNetworkType/getNetworkType",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "getNetworkType",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+ "requiredBackgroundModes": [
+  "audio"
+]
+
+}

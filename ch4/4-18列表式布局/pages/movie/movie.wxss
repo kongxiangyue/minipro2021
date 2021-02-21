@@ -1,0 +1,76 @@
+/*导航样式*/
+.title {
+  display: flex; 
+  flex-direction: row;                           
+}
+/*导航选中*/
+.select {
+  font-size: 30rpx;
+  width: 50%;
+  color: green;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 2px solid green;
+}
+/*导航未选中*/
+.default {
+  width: 40%;
+  font-size: 30rpx;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+/*轮播图样式*/
+swiper {
+  height: 280rpx;
+}
+.haibao image {
+  width: 100%;
+  height: 280rpx;
+}
+/*列表内部样式*/
+.list {
+  display: flex;
+  flex-direction: row;
+}
+/*图片样式*/
+.pic image {
+  width: 180rpx;
+  height: 200rpx;
+  padding: 10rpx;
+}
+/*电影信息样式*/
+.movie {
+  font-size: 24rpx;
+  padding-top: 20rpx;
+  line-height: 40rpx;
+  color: #000;
+}
+/*电影名称样式*/
+.name {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+/*按钮位置*/
+.btn {
+  position: absolute;
+  right: 30rpx;
+  margin-top: 140rpx;
+}
+/*按钮样式*/
+.btn button {
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  color: green;
+  border: 1px solid green;
+}
+/*分割线样式*/
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  opacity: 0.5;
+}
+

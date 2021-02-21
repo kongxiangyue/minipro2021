@@ -1,0 +1,16 @@
+<view class="demo-box">
+  <view class="title">11.form小案例</view>
+  <view class="title">模拟注册功能</view>
+  <form bindsubmit="onSubmit" bindreset="onReset">
+    <text>用户名:</text>
+    <input name="username" type="text" placeholder="请输入你的用户名"></input>
+    <text>密码:</text>
+    <input name="password" type="password" placeholder="请输入你的密码"></input>
+    <text>手机号:</text>
+    <input name="phonenumber" type="password" placeholder="请输入你的手机号"></input>
+    <text>验证码:</text>
+    <input name="code" type="password" placeholder="请输入验证码"></input>
+    <button form-type="submit">注册</button>
+    <button form-type="reset">重置</button>
+  </form>
+</view>

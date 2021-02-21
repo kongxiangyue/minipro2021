@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+
+    "navigationBarTitleText": "设置场景",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8B8682",
+  
+ "selectedColor": "#000000",
+    "list": [
+      {
+        "iconPath": "icon/time.png",
+        "selectedIconPath": "icon/time-1.png",
+        "pagePath": "pages/index/index",
+        "text": "计时"
+      },
+      {
+        "iconPath": "icon/setting.png",
+        "selectedIconPath": "icon/setting-1.png",
+        "pagePath": "pages/setting/setting",
+        "text": "设置"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

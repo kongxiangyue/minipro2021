@@ -1,0 +1,6 @@
+<view class="demo-box">
+  <view class="title">16.switch小案例</view>
+  <view class="title">增加switch事件监听</view>
+  <switch checked bindchange="switch1Change"></switch>
+  <switch bindchange="switch2Change"></switch>
+</view>

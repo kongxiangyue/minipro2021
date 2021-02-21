@@ -1,0 +1,38 @@
+<view class="container">
+  <!-- <template is="head" data="{{title: 'editor'}}"/> -->
+ 
+  <view class="page-body">
+
+    <view class='wrapper'>
+    <view class="contentinfo">
+ 请输入文章标题
+  </view>
+    <view class='in'> <input bindinput='title' placeholder="请输入..." focus="{{focus}}" /></view>
+ 
+ <view class="contentinfo">
+ 请输入文章内容
+  </view>
+ <view class='in'><textarea bindinput="content" maxlength="300" /></view>
+
+  <view class="contentinfo">
+ 请选择文章类型
+  </view>
+  <view class='in'>
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group></view>
+<view>
+
+<view class='pic'>
+ <view class="contentinfo">
+ 请上传图片
+  </view>
+<view bindtap='picfunction'><image  class="plus" src='/img/plus.png'></image></view>
+</view></view>
+
+<button type="primary" bindtap='submit'>提交</button>
+  </view>
+</view>
+    </view>

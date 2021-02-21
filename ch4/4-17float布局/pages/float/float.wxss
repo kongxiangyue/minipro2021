@@ -1,0 +1,12 @@
+view {
+  width: 150rpx;
+  height: 250rpx;
+  border: 1px solid #fff;
+  background-color: skyblue;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}

@@ -1,0 +1,22 @@
+<view class='zong'>
+<view>将进酒</view>
+<view class="zz">唐代 : 李白</view>
+<view class="content">
+<view >君不见，黄河之水天上来，奔流到海不复回。</view>
+<view>君不见，高堂明镜悲白发，朝如青丝暮成雪。</view>
+<view >人生得意须尽欢，莫使金樽空对月。</view>
+<view >天生我材必有用，千金散尽还复来。</view>
+<view>烹羊宰牛且为乐，会须一饮三百杯。</view>
+<view >岑夫子，丹丘生，将进酒，杯莫停。</view>
+<view>与君歌一曲，请君为我倾耳听。</view>
+<view >钟鼓馔玉不足贵，但愿长醉不复醒。</view>
+<view >古来圣贤皆寂寞，惟有饮者留其名。</view>
+<view >陈王昔时宴平乐，斗酒十千恣欢谑。</view>
+<view >主人何为言少钱，径须沽取对君酌。</view>
+<view >五花马，千金裘，</view>
+<view >呼儿将出换美酒，与尔同销万古愁。</view>
+</view>
+</view>
+<view class="bg"> 
+  <view class="bg1" bindtap='play'>听朗读</view><view class="bg2" bindtap='pause'>暂停朗读</view><view class="bg3" bindtap='continue'>继续朗读</view>
+</view> 

@@ -1,0 +1,2 @@
+<!--pages/redirect/redirect.wxml-->
+<text>重定向的新页面，无法返回到navigator.wxml页面</text>   

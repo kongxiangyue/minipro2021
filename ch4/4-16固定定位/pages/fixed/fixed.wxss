@@ -1,0 +1,8 @@
+.item {
+  position: fixed;
+  width: 90%;
+  height: 130rpx;
+  background-color: skyblue;
+  margin-top: 1000rpx;
+  border: 1px solid #000;
+}

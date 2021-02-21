@@ -1,0 +1,34 @@
+<!--搜索框-->
+<view class="search">
+  <view class="searchBg">
+    <!--搜索图标-->
+    <image src="/images/search.jpg" style="width:50rpx;height:50rpx"></image>
+    <input placeholder="搜索宝贝"> </input>
+  </view>
+  <!--取消按钮-->
+  <view class="btn">取消</view>
+</view>
+<!--分割线-->
+<view class="hr"></view>
+<view class="title">
+  <view class="left">热门搜索</view>
+  <view class="right">换一批</view>
+</view>
+<!--标签内容-->
+<view class="tag">
+  <block wx:for="{{lable1}}">
+    <view>{{item}}</view>
+  </block>
+</view>
+<!--标题内容-->
+<view>
+  <view class="title">
+    <view class="left">历史搜索</view>
+  </view>
+</view>
+<!--标签内容-->
+<view class="tag">
+  <block wx:for="{{lable2}}">
+    <view>{{item}}</view>
+  </block>
+</view>

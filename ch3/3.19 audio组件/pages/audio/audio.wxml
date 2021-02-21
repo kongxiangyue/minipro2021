@@ -1,0 +1,11 @@
+<view class="demo-box">
+  <view class="title">19.audio小案例</view>
+  <view class="title">网络音频播放</view>
+  <view>
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls="true" loop="true">
+    </audio>
+    <button size="mini" bindtap="audioPlay">播放</button>
+    <button size="mini" bindtap="audioPause">暂停</button>
+    <button size="mini" bindtap="audio10">设置当前播放时间为10秒</button>
+  </view>
+</view>

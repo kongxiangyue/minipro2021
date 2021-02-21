@@ -1,0 +1,18 @@
+.flex-container {
+  margin: 50rpx auto;
+  width: 740rpx;
+  height: 600rpx;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-start; /*更改justify-content属性依次替换为 center | flex-end | space-between | space-around | space-evenly*/
+}
+.item {
+  width: 200rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: skyblue;
+}

@@ -1,0 +1,41 @@
+<view class="all">
+  <view class="top">
+    <view class="top1">
+       <view class="avatarUrl">
+          <image src="{{userInfo.avatarUrl}}" style="width:70px;height:70px;"></image>
+       </view>
+       <view class="nickName">
+          {{userInfo.nickName}}
+       </view>
+       
+    </view>
+    <view class="top2">
+       <view class="topitem">
+         <view>1000</view>
+         <view>关注</view>
+       </view>
+       <view class="topitem">
+         <view>500</view>
+         <view>粉丝</view>
+       </view>
+       <view class="topitem" style="border:0px;">
+         <view>3000</view>
+         <view>7天访客</view>
+       </view>
+    </view>
+  </view>
+
+
+  <view class="part"></view>
+  <view class="mecontent">
+     <view class="mefuntion" bindtap='mefuntion'>我要爆料</view>
+    
+  </view>
+
+   <view class="part1"></view>
+  <view class="mecontent" bindtap="setup">
+     <view class="mefuntion" bindtap='setup'>系统设置</view>
+    
+  </view>
+
+</view>

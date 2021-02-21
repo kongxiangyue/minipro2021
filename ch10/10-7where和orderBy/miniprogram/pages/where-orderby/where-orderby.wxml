@@ -1,0 +1,14 @@
+<view class="doc" bindtap="where">where查询男人记录</view>
+ <view wx:for="{{where}}">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}</text>
+    </view>
+</view>
+
+
+ <view class="doc" bindtap="orderby">orderby按age升序排序</view>
+ <view wx:for="{{orderby}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}</text>
+ </view>
+ </view>

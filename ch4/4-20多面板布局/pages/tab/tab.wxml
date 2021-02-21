@@ -1,0 +1,24 @@
+<!--分割线-->
+<view class="hr"></view>
+<!--输入框-->
+<input placeholder="请输入商品名称"></input>
+<view class="hr"></view>
+<view class="content">
+  <view class="left">
+    <!--左侧部分-->
+    <scroll-view scroll-y="true">
+      <block wx:for="{{list}}">
+        <view>{{item}}</view>
+      </block>
+    </scroll-view>
+  </view>
+  <view class="right">
+    <!--右侧部分-->
+    <view class="order">
+      <!--分类部分-->
+      <view>热门推荐</view>
+      <view>生活热搜</view>
+      <view>专场推荐</view>
+    </view>
+  </view>
+</view>

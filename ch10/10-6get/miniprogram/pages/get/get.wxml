@@ -1,0 +1,11 @@
+<view class="doc" bindtap="docget">doc.get获取一条记录</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{docget.name}}--{{docget.password}}--{{docget.age}}--{{docget.sex}}--{{docget.tel}}</text>
+    </view>
+
+ <view class="doc" bindtap="Collectionget">Collection.get 获取多条记录</view>
+ <view wx:for="{{Collectionget}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}</text>
+    </view>
+ </view>

@@ -1,0 +1,4 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  传过来的数据是{{name}}和{{password}}
+</view>

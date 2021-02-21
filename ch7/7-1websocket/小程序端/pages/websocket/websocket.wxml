@@ -1,0 +1,22 @@
+<view class="zong">
+    <view class="shang">
+        <view wx:for="{{messagelist}}" wx:for-index="idx" wx:for-item="itemName">
+            <view class="selfMessage" wx:if="{{itemName.type == 'self'}}">
+                <view class="nameInfo">{{itemName.name+ " " + itemName.time}}</view>
+                <view class="detailMessage">{{itemName.message}}</view>
+            </view>
+            <view class="otherMessage" wx:else>
+                <view class="nameInfo">{{itemName.name+ " " + itemName.time}}</view>
+                <view class="detailMessage">{{itemName.message}}</view>
+            </view>
+        </view>
+    </view>
+    
+    <view class="xia">
+        <form report-submit  bindsubmit="fasong">
+         <view class="inputArea">
+         <input type="text"  name="inputValue" placeholder="{{placeholderText}}" class="message"/></view> 
+        <button size="default" type="primary" form-type="submit" class="sendButton">发送</button>
+        </form>
+    </view>
+</view>

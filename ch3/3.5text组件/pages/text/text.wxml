@@ -1,0 +1,7 @@
+<view class="demo-box">
+  <view class="title">5.text小案例</view>
+  <view class="title">用于文本的显示</view>
+  <text>{{text}}</text>
+  <button bindtap="add">增加一行</button>
+  <button bindtap="reduce">删除一行</button>
+</view>

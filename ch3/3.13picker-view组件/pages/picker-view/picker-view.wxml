@@ -1,0 +1,16 @@
+<view class="demo-box">
+  <view class="title">13.picker-view小案例</view>
+  <view class="title">旅游计划</view>
+  <view class="title">{{travel}}</view>
+  <picker-view value="{{value}}" bindchange="pickerviewChange">
+    <picker-view-column>
+      <view wx:for="{{touristone}}">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{touristtwo}}">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{touristthree}}">{{item}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>

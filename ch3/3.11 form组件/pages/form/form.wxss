@@ -1,0 +1,9 @@
+input {
+  border: 1px solid silver;
+}
+button {
+  margin-top: 20rpx;
+}
+text {
+  font-size: 36rpx;
+}

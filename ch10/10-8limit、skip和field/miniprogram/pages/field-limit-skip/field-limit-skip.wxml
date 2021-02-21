@@ -1,0 +1,23 @@
+
+  <view class="doc" bindtap="field">field只显示name、age和tel字段</view>
+ <view wx:for="{{field}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.age}}--{{item.tel}}  </text>
+ </view>
+ </view>
+
+<view class="doc" bindtap="limit">limit只要3条记录</view>
+ <view wx:for="{{limit}}">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}       </text>
+    </view>
+</view>
+
+ <view class="doc" bindtap="skip">skip跳4条记录</view>
+ <view wx:for="{{skip}}">
+ <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{item.name}}--{{item.password}}--{{item.age}}--{{item.sex}}--{{item.tel}}       </text>
+ </view>
+ </view>
+
+

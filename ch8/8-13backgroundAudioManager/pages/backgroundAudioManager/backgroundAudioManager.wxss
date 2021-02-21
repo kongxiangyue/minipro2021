@@ -1,0 +1,29 @@
+.zong{text-align:center}
+.zz{margin-bottom:50rpx;}
+page{background-color: rgba(208, 233, 205, 0.514);}
+.bg{
+  margin-top: 50rpx;
+  margin-left: 80rpx;
+   text-align:center;
+   display: flex;
+   flex-direction: row;
+}
+
+.bg1{
+ margin-left: 20rpx;
+  width: 3rem;
+  height: 1.5rem;
+  background-color: greenyellow;
+}
+.bg2{
+ margin-left: 20rpx;
+  width: 4rem;
+  height: 1.5rem;
+  background-color: greenyellow;
+}
+.bg3{
+ margin-left: 20rpx;
+  width: 4rem;
+  height: 1.5rem;
+  background-color: greenyellow;
+}

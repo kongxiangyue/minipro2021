@@ -1,0 +1,11 @@
+.demo-box {
+  padding: 10rpx;
+  margin: 20rpx 60rpx;
+  border: 1rpx solid gray;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx;
+  justify-content: center;
+}

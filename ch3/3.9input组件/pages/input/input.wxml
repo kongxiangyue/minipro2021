@@ -1,0 +1,11 @@
+<view class="demo-box">
+  <view class="title">9.input小案例</view>
+  <view class="title">(1)文字输入框</view>
+  <input type="text" maxlength="10" placeholder="这里最多只能输入10个字" />
+  <view class="title">(2)密码输入框</view>
+  <input type="password" placeholder="请输入密码"/>
+  <view class="title">(3)禁用输入框</view>
+  <input disabled placeholder="该输入框已经被禁用"/>
+  <view class="title">(4)为输入框增加事件监听</view>
+  <input bindinput="getInput" bindblur="getBlur" placeholder="这里输入的内容将会被监听"/>
+</view>

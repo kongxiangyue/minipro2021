@@ -1,0 +1,35 @@
+ <view   class="top">
+    <text class="playmusicname">{{playmusicname}}</text>
+    <view class="music-player" style="{{animation_pause}}">
+      <image class="topimg" src="./img/play.gif"></image>
+    </view>
+  </view>
+
+ <slider min="0" max="{{duration}}" value="{{currentTime}}" color="red" selected-color="blue" show-value="true"></slider>
+
+  <view class="mid">
+    <view class="btns pre_next" bindtap="modetap">
+    <image class="modeimg" src="{{mode.mode_img[mode.index]}}"></image>
+    </view>
+    <view class="btns pre_next pre" bindtap="Preaudio">
+    <image class="img_pre_next" src="./img/pre.png"></image> 
+    </view>
+    <view class="btns play_pause" bindtap="Playaudio">
+      <image class="img_play_pause" src="{{mode1.mode_img[mode1.index]}}"></image>
+      </view>
+    <view class="btns pre_next next" bindtap="Nextaudio">
+      <image class="img_pre_next" src="./img/next.png"></image>
+    </view>
+     <view class="btns pre_next" catchtap ="showlist">
+    <image class="modeimg" src="./img/list.png"></image>
+    </view>
+   </view>
+
+
+
+  <view bindtap="closeList" style="display:{{songList_show}}" class="music_list">
+  <text class="list_li" style="text-align:center;">播放列表（{{songList.length}})</text>
+     <block wx:for="{{songList}}">
+        <text class="list_li" style="background-color:silver;">{{item.no}}.{{item.name}}</text>
+    </block>
+</view>

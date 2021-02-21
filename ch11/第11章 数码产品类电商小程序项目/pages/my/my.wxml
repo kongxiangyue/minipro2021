@@ -1,0 +1,7 @@
+<view>
+  <view class="my-container">
+      <image src="{{UserImage}}" ></image>
+      <text>{{Username}}</text>
+  </view>
+ </view>
+ <view>大家好，欢迎学习微信小程序。</view>

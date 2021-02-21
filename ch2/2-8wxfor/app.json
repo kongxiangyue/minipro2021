@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/wxfor/wxfor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "wx:for",
+    "navigationBarTextStyle": "white"
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

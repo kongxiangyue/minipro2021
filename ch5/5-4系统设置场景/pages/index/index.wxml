@@ -1,0 +1,4 @@
+<view  wx:for="{{configs}}">
+<view class="setitem"></view>
+<view>{{item.name}}设置的参数如下：</view><view>时间限制是{{item.time}},倒计时时间是{{item.voice}}秒</view>
+</view>

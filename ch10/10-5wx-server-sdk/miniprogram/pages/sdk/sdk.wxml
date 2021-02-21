@@ -1,0 +1,9 @@
+<view class="data"><input placeholder="请输入a" focus="true" bindinput="binda"></input></view>
+<view class="data"><input placeholder="请输入b" focus="true" bindinput="bindb"></input></view>
+<view class="partition"></view>
+<view class="arithmetic"><view bindtap='sdk'><button size="mini" class='bt' >sdk调用add加法</button></view><view>{{sdk}}</view></view>
+
+
+ 
+     
+

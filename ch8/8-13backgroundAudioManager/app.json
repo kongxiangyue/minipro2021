@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/backgroundAudioManager/backgroundAudioManager",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "BackgroundAudioManager",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+ "requiredBackgroundModes": [
+  "audio"
+]
+
+}

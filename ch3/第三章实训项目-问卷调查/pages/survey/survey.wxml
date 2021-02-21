@@ -1,0 +1,35 @@
+<view class="content">
+  <form bindsubmit="onSubmit" bindreset="onReset">
+    <view class="title">1.你现在大几？</view>
+    <radio-group bindchange="universityChange">
+      <radio value="大一"/>大一
+      <radio value="大二"/>大二
+      <radio value="大三"/>大三
+      <radio value="大四"/>大四
+    </radio-group>
+
+    <view class="title">2.你使用手机最大的用途是什么？</view>
+    <checkbox-group bindchange="mobilChange">
+      <label><checkbox value="社交"/>社交</label>
+      <label>
+        <checkbox value="购物"/>网购</label>
+      <label>
+        <checkbox value="学习"/>学习</label><label>
+        <checkbox value="其他"/>其他</label>
+
+    </checkbox-group>
+    <view class="title">3.平时每天使用手机多少小时？</view>
+    <slider min="0" max="24" show-value bindchange="timechange" />
+
+     <view class="title">4.你之前有使用过微信小程序吗？</view>
+    <radio-group bindchange="programChange">
+      <radio value="无"/>无
+      <radio value="有"/>有
+    </radio-group>
+
+    <view class="title">5.谈谈你对微信小程序未来发展的看法</view>
+    <textarea auto-height placeholder="请输入你的看法" name="textarea" />
+    <button size="mini" form-type="submit">提交</button>
+    <button size="mini" form-type="reset">重置</button>
+  </form>
+</view>

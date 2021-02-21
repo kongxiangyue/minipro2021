@@ -1,0 +1,17 @@
+<view class="title">1.显示图标小案例</view>
+<view class="goods-box">
+  <!--商品展示-->
+  <image src="/images/goods.png"></image>
+  <view class="carts-icon">
+    <!--购物车图标-->
+    <image src="/images/cart.png"></image>
+    <!--加入购物车的数量-->
+    <text class="carts-num" wx:if="{{hasCart}}">{{totalNum}}</text>
+  </view>
+  <!--加入购物车导航-->
+  <view class="operation">
+    <text class="operation-num">数量 {{num}}</text>
+    <text class="operation-add" bindtap="addCount">+</text>
+    <text bindtap="addCart">加入购物车</text>
+  </view>
+</view>

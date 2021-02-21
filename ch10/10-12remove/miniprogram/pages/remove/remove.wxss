@@ -1,0 +1,24 @@
+/**index.wxss**/
+@import "../../style/guide.wxss";
+.userinfo{
+  margin-top: 40rpx;
+  height: 50rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+.doc{
+  height: 60rpx;
+  background-color:#d1d3d4;
+}
+.content{
+   height: 60rpx;
+  background-color:hsla(249, 91%, 43%, 0.13);
+}
+

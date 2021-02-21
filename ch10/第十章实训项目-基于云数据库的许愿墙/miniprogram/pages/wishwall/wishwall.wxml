@@ -1,0 +1,9 @@
+<!--index.wxml-->
+    <view class="zong">
+        <view class="yang1" wx:for="{{wishs}}" id="{{item._id}}" bindtap='details'>
+        {{item.title}}
+        </view>
+         <view class="yang1" bindtap='add' >
+        增加愿望
+        </view>
+    </view>

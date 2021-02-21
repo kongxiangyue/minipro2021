@@ -1,0 +1,18 @@
+<view class="body">
+<!--文章列表模板 begin-->
+<template name="itmes">
+  <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
+    <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infos">
+      <view class="title">{{title}}</view>
+      <view class="date">{{cTime}}</view>
+    </view>
+  </navigator>
+</template>
+<!--文章列表模板 end-->
+
+<!--循环输出列表 begin-->
+<view wx:for="{{shuzu}}" class="list">
+  <template is="itmes" data="{{...item}}" />
+</view>
+</view>

@@ -1,0 +1,55 @@
+  <view class="head"></view>
+  <view class="element">
+     <view class="content">编辑资料</view>
+     <view class="right">
+       <text> ></text>
+     </view>
+  </view>
+  <view class="part"></view>
+  <view class="element">
+     <view class="content">账号和绑定设置</view>
+     <view class="right">
+       <text> ></text>
+     </view>
+  </view>
+ 
+
+  <view class="part"></view>
+  <view class="element">
+     <view class="content">字体大小</view>
+     <view class="right">
+       <text>中 ></text>
+     </view>
+  </view>
+    <view class="part"></view>
+  <view class="element">
+     <view class="content">列表是否显示摘要</view>
+     <view class="right">
+       <switch type="switch" />
+     </view>
+  </view>
+
+  <view class="part"></view>
+  <view class="element">
+     <view class="content">非WIFI网络是否自动播放</view>
+     <view class="right">
+       <switch type="switch" />
+     </view>
+  </view>
+    <view class="part"></view>
+    <view class="element">
+     <view class="content">是否推送通知</view>
+     <view class="right">
+       <switch type="switch" />
+     </view>
+  </view>
+
+  <view class="part"></view>
+  <view class="element">
+     <view class="content">检查版本</view>
+     <view class="right">
+       <text> 30.0.0</text>
+     </view>
+  </view>
+   <view class="part"></view>
+   <button class="btn">退出登录</button>

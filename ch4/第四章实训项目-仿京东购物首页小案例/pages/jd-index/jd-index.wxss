@@ -1,0 +1,43 @@
+/*顶部图片大小*/
+swiper image {
+  width: 100%;
+  height: 300rpx;
+}
+/*10个京东图标外部容器布局*/
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*10个京东图标内部容器样式*/
+.content-item {
+  width: 20%;
+  text-align: center;
+  font-size: 24rpx;
+  margin: 8rpx 0;
+}
+/*分割线样式*/
+.hr {
+  width: 100%;
+  height: 30rpx;
+  background-color: #f4f5f6;
+}
+/*页面中间外部容器布局*/
+.mid {
+  display: flex;
+  flex-direction: row;
+  padding: 40rpx;
+}
+/*页面底部外部容器布局*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20rpx 40rpx;
+}
+/*"京东拼购"字体样式*/
+text {
+
+  font-weight: bold;
+
+}

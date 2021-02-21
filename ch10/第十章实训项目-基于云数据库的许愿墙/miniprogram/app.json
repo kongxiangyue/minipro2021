@@ -1,0 +1,22 @@
+{
+  "pages": [
+      "pages/wishwall/wishwall",
+    "pages/details/details",
+
+    "pages/add/add"
+   
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "wishwall",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 50
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}

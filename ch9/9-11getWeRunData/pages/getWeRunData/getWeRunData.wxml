@@ -1,0 +1,1 @@
+<view wx:for="{{stepInfoList}}">{{30-index}}天前你运动了{{item.step}}步</view>

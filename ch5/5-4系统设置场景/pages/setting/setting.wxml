@@ -1,0 +1,92 @@
+<!--立论阶段-->
+<view>
+  <view class="title">立论阶段</view>
+  <view class="hr"></view>
+  <view>
+    <text>时间限制（秒）</text>
+    <slider id="0" bindchange="sliderChange" show-value min="10" max="360" value="{{configs[0].time}}" />
+  </view>
+  <view>
+    <text>声音提醒</text>
+    <radio-group id="0" class="item" bindchange="radioChange">
+      <label>
+        <radio value="15" checked/>提前15秒</label>
+      <label>
+        <radio value="10" />提前10秒</label>
+      <label>
+        <radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+  <!--驳立论阶段-->
+  <view class="title">驳立论阶段</view>
+  <view class="hr"></view>
+  <view>
+    <text>时间限制（秒）</text>
+    <slider id="1" bindchange="sliderChange" show-value min="10" max="360" value="{{configs[1].time}}" />
+  </view>
+  <view>
+    <text>声音提醒</text>
+    <radio-group id="1" class="item" bindchange="radioChange">
+      <label>
+        <radio value="15" checked/>提前15秒</label>
+      <label>
+        <radio value="10" />提前10秒</label>
+      <label>
+        <radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+    <!--质辩环节-->
+  <view class="title">质辩环节</view>
+  <view class="hr"></view>
+  <view>
+    <text>时间限制（秒）</text>
+    <slider id="2" bindchange="sliderChange" show-value min="10" max="360" value="{{configs[2].time}}" />
+  </view>
+  <view>
+    <text>声音提醒</text>
+    <radio-group id="2" class="item" bindchange="radioChange">
+      <label>
+        <radio value="15" checked/>提前15秒</label>
+      <label>
+        <radio value="10" />提前10秒</label>
+      <label>
+        <radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+   <!--自由辩论 -->
+  <view class="title">自由辩论</view>
+  <view class="hr"></view>
+  <view>
+    <text>时间限制（秒）</text>
+    <slider id="3" bindchange="sliderChange" show-value min="10" max="360" value="{{configs[3].time}}" />
+  </view>
+  <view>
+    <text>声音提醒</text>
+    <radio-group id="3" class="item" bindchange="radioChange">
+      <label>
+        <radio value="15" checked/>提前15秒</label>
+      <label>
+        <radio value="10" />提前10秒</label>
+      <label>
+        <radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+<!--总结陈词-->
+  <view class="title">总结陈词</view>
+  <view class="hr"></view>
+  <view>
+    <text>时间限制（秒）</text>
+    <slider id="4" bindchange="sliderChange" show-value min="10" max="360" value="{{configs[4].time}}" />
+  </view>
+  <view>
+    <text>声音提醒</text>
+    <radio-group id="4" class="item" bindchange="radioChange">
+      <label>
+        <radio value="15" checked/>提前15秒</label>
+      <label>
+        <radio value="10" />提前10秒</label>
+      <label>
+        <radio value="5" />提前5秒</label>
+    </radio-group>
+  </view>
+</view>

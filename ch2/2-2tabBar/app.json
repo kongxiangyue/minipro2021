@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTitleText": "设置tabBar属性",
+  "navigationBarTextStyle": "white"
+},
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#E4393C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/icon1-live.png",
+        "iconPath": "images/icon1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "selectedIconPath": "images/icon2-live.png",
+        "iconPath": "images/icon2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

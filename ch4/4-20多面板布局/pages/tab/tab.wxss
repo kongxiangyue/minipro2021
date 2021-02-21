@@ -1,0 +1,48 @@
+/*分割线样式*/
+.hr {
+  border: 1px solid #EEE9E9;
+  width: 100%;
+  opacity: 0.6;
+}
+/*输入框样式*/
+input {
+  margin: 15rpx 30rpx;
+  border: 1px solid #ccc;
+  border-radius: 50rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+/*布局样式*/
+.content {
+  display: flex;
+  flex-direction: row;
+}
+/*左边样式*/
+.left {
+  width: 25%;
+  font-size: 30rpx;
+}
+scroll-view {
+  height: 90%;
+}
+/*左边元素样式*/
+.left view {
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+/*右边样式*/
+.right {
+  width: 75%;
+}
+/*分类样式*/
+.order {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20 rpx;
+}
+.order view {
+  width: 33%;
+  font-size: 32rpx;
+}

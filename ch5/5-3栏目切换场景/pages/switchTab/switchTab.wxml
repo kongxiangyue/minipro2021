@@ -1,0 +1,21 @@
+<view class="title">3.栏目切换场景小案例</view>
+<view class="content">
+  <view class="left">
+    <!--左侧部分-->
+    <scroll-view scroll-y>
+      <block wx:for="{{list1}}" wx:for-index="id">
+        <view id="{{id}}" bindtap="switchTab">{{item}}</view>
+      </block>
+    </scroll-view>
+  </view>
+  <view class="right">
+    <!--右侧部分-->
+    <swiper current="{{currentTab}}" >
+      <block wx:for="{{list2}}">
+        <swiper-item>
+          {{item}}
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

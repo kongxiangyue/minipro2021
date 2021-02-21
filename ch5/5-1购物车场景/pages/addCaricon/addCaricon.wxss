@@ -1,0 +1,56 @@
+/*页面盒子*/
+.goods-box {
+  position: relative;
+  padding: 0 30rpx;
+  text-align: center;
+
+}
+/*购物车位置*/
+.carts-icon {
+ position: absolute; 
+right: 600rpx;
+  top: 490rpx; 
+width: 70rpx; 
+height: 70rpx;
+
+}
+/*购物车图标*/
+.carts-icon image {
+  width: 100%;
+  height: 100%;
+}
+/*显示加入购物车图标*/
+.carts-num {
+  position: absolute;
+  right: 36rpx;
+  width: 40rpx;
+  height: 40rpx;
+  color:white;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  border-radius: 50%;
+  background: #e4393c;
+}
+/*加入购物车导航*/
+.operation {
+  height: 80rpx;
+  line-height: 80rpx;
+  color:white;
+  border-radius: 50rpx;
+  background: #ff9600;
+  font-size: 30rpx;
+}
+/*操作文本*/
+.operation text {
+  display: inline-block;
+  height: 80rpx;
+}
+/*加入购物车数量*/
+.operation-num {
+  width: 160rpx;
+}
+/*加入购物车符号*/
+.operation-add {
+  width: 80rpx;
+  margin-right: 50rpx;
+}

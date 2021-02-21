@@ -1,0 +1,2 @@
+<!--pages/pagetwo/pagetwo.wxml-->
+<text>2.当前页面通过wx.redirectTo方式跳转，无法返回上一页</text>

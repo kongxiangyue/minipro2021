@@ -1,0 +1,10 @@
+<view class="data"><input placeholder="请输入a" focus="true" bindinput="binda"></input></view>
+<view class="data"><input placeholder="请输入b" focus="true" bindinput="bindb"></input></view>
+<view class="partition"></view>
+<view class="arithmetic"><view bindtap='add'><button size="mini" class='bt' >+</button></view><view>{{add}}</view></view>
+<view class="arithmetic"><view  bindtap='sub'><button size="mini" class='bt' >-</button></view><view>{{sub}}</view></view>
+
+
+ 
+     
+

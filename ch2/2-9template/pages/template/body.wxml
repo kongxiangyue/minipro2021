@@ -1,0 +1,9 @@
+
+<import src="header"/>
+<template is="header"/>
+
+我是正文
+
+<import src="footer"/>
+<template is="footer" data="{{Data}}" />
+

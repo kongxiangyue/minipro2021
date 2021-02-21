@@ -1,0 +1,4 @@
+<template name="footer">
+<view>我是尾部文件  <text>传递过来的参数是{{Data}}</text>
+</view>
+</template>

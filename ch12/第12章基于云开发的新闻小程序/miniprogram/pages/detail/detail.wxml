@@ -1,0 +1,9 @@
+<!--detail.wxml-->
+<view class="warp">
+<view >
+  <view class="title">{{detail_content.title}}</view>
+  <view class="cTime">{{detail_content.cTime}}</view>
+  <view class="img"><image src="{{detail_content.img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+  <view class="content">{{detail_content.content}}</view>
+  <view class="close" bindtap="closepage"> 返回 </view>
+</view></view>

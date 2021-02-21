@@ -1,0 +1,1 @@
+<view>上一个页面传递过来的数值为：{{receiveData}}</view>

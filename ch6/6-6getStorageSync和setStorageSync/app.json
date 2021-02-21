@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/setStorageSync/setStorageSync",
+    "pages/getStorageSync/getStorageSync"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "setStorageSync",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

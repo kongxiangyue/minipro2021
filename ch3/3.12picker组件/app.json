@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/picker/picker",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "案例demo"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,13 @@
+<view class="demo-box">
+  <view class="title">7.button小案例</view>
+  <view class="title">(1)迷你按钮</view>
+  <button size="mini" type="primary">主要按钮</button>
+  <button size="mini" type="default">次要按钮</button>
+  <button size="mini" type="warn">警告按钮</button>
+  <view class="title">(2)按钮状态</view>
+  <button>普通按钮</button>
+  <button disabled>警用按钮</button>
+  <button loading>加载按钮</button>
+  <view class="title">(3)增加按钮事件</view>
+  <button bindgetuserinfo="getUserDetail" open-type="getUserInfo">点我获取用户信息</button>
+</view>

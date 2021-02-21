@@ -1,0 +1,24 @@
+<view class="title">2.下拉菜单场景小案例</view>
+<view class="page">
+  <!--导航内容-->
+  <view class="nav">
+    <view class="nav-item {{shownavindex == 1? 'active' : ''}}" bindtap="listmenu" data-nav="1">
+      <view class="content">排序</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-item">
+      <view class="content">时间</view>
+      <view class="icon"></view>
+    </view>
+    <view class="nav-item">
+      <view class="content">价格</view>
+      <view class="icon"></view>
+    </view>
+  </view>
+  <!--下拉内容-->
+  <view class="list {{openif ? 'down' : 'up'}} ">
+    <view wx:for="{{content}}">
+      {{item}}
+    </view>
+  </view>
+</view>

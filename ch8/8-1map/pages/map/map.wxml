@@ -1,0 +1,2 @@
+<map id="tu" latitude='23.099' longitude='113.325'  scale='15' class="tu" controls='{{con}}' markers='{{mar}}' bindcontroltap='con' bindmarkertap='mar'>
+</map>

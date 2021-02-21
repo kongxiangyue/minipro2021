@@ -1,0 +1,1 @@
+<view id="{{src[0]}}" bindtap="share"><image  src="{{src[0]}}"></image></view>

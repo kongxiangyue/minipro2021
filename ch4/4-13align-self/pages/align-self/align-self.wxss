@@ -1,0 +1,30 @@
+.flex-container {
+  margin: 50rpx auto;
+  width: 740rpx;
+  height: 600rpx;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  width: 200rpx;
+  line-height: 100rpx;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: skyblue;
+}
+.a {
+  align-self: stretch;
+}
+.b {
+  height: 100rpx;
+  align-self: flex-start;
+}
+.c {
+  height: 100rpx;
+  align-self: center;
+}
+.d{
+  height: 100rpx;
+  align-self: flex-end;
+}

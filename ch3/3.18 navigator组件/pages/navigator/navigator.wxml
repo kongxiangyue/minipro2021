@@ -1,0 +1,11 @@
+<view class="demo-box">
+  <view class="title">18.导航组建navigator小案例</view>
+  <view class="title">(1)单击打开新页面</view>
+  <navigator url="../new/new" open-type="navigate">
+    <button type="primary">点击按钮跳转到新页面</button>
+  </navigator>
+  <view class="title">(2)单击重定向到新页面</view>
+  <navigator url="../redirect/redirect" open-type="redirect">
+    <button type="primary">点击按钮跳转到当前页面</button>
+  </navigator>
+</view>

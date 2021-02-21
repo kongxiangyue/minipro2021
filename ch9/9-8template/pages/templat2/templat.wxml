@@ -1,0 +1,63 @@
+<!-- 新建任务 -->
+<form report-submit='true' bindsubmit="formSubmit" bindreset="formReset">
+<view class="add-page">
+    <view class="mod-a">
+        <!-- 酒店名称 -->
+        <view class="mod t-name">
+            <text class="key">酒店名称</text>
+            <input class="input" maxlength="100" placeholder="请输入酒店名称" bindKeyInput="bindKeyInput" name="hotelname"/>
+            <image class="arrow-r" src="../../image/arrow-r-0.png"></image>
+        </view>         
+    </view>
+
+    <view class="mod-a mt20">
+        <!-- 门店 -->
+        <view class="mod t-address" bindtap="chooseLocation">
+            <text class="key">门店地址</text>
+            <text class="value">{{address}}</text>
+            <image class="arrow-r" src="../../image/arrow-r-0.png"></image>
+        </view>
+</view>
+    <view class="mod-a mt20">
+        <!-- 入住时间 -->
+        <view class="mod t-time">
+            <view class="start">
+                <text class="key">入住于</text>
+                <picker mode="date" value="{{startDay}}" start="{{startDay}}" bindchange="startDateChange">
+                    <view class="date">{{startDay}}<image class="arrow-d" src="../../image/arrow-d-0.png"></image></view>
+                </picker>
+            </view>
+            <view class="pipe"></view>
+            <view class="end">
+                <text class="key">离店</text>
+                <picker mode="date" value="{{endDay}}" start="{{endDay}}" bindchange="endDateChange">
+                    <view class="date">{{endDay}}<image class="arrow-d" src="../../image/arrow-d-0.png"></image></view>
+                </picker>
+            </view>
+        </view>  
+    </view>
+
+    <!-- 我的昵称 -->
+     <view class="mod-a">
+        <!-- 酒店名称 -->
+        <view class="mod t-name">
+            <text class="key">您的姓名</text>
+            <input class="input" maxlength="100" placeholder="请输入您的姓名" bindKeyInput="bindKeyInput" name="name"/>
+            <image class="arrow-r" src="../../image/arrow-r-0.png"></image>
+        </view>         
+    </view>
+
+ <view class="mod-a">
+        <!-- 酒店名称 -->
+        <view class="mod t-name">
+            <text class="key">联系电话</text>
+            <input class="input" maxlength="100" placeholder="请输入您的电话" bindKeyInput="bindKeyInput" name="tel"/>
+            <image class="arrow-r" src="../../image/arrow-r-0.png"></image>
+        </view>         
+    </view>
+
+    <!-- 创建按钮 -->
+    <view class="create">
+        <button class="btn"  form-type="submit">提交</button>
+    </view>
+</view></form>

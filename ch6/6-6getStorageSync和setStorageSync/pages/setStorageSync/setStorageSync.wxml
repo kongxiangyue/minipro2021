@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container" bindtap='test'>
+传数据过去下一页面
+</view>

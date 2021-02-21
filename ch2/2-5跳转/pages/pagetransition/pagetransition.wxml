@@ -1,0 +1,4 @@
+
+<view bindtap="topageone">1.单击这里通过wx.switchTab进行页面跳转</view>
+<view bindtap="topagetwo">2.单击这里通过wx.redirectTo进行页面跳转</view>
+<view bindtap="totabpage">3.单击这里通过wx.switchTab进行tabBar页面跳转</view>

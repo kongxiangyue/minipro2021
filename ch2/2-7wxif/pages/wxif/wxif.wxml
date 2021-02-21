@@ -1,0 +1,12 @@
+
+  <view class="hello" wx:if="{{hours<=12}}">
+  goodmorning
+  </view>
+   <view class="hello" wx:elif="{{hours<=20}}">
+  goodafternoon
+  </view>
+   <view class="hello" wx:else>
+  goodevening
+  </view>
+
+

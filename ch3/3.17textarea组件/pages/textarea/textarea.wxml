@@ -1,0 +1,9 @@
+<view class="demo-box">
+  <view class="title">17.textarea小案例</view>
+  <view class="title">(1)文本框自动变高</view>
+  <textarea auto-height placeholder="允许自动变高" />
+  <view class="title">(2)禁用文本框</view>
+  <textarea placeholder="禁用该文本框无法输入内容" disabled/>
+  <view class="title">(3)自定义占位符样式</view>
+  <textarea placeholder="占位符颜色是天蓝色并加粗" placeholder-style="color:skyblue;font-weight:bold" />
+</view>

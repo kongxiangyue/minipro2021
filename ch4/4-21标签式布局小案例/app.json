@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/tag/tag",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#000000",
+      "navigationBarTitleText": "标签小案例",
+      "navigationBarTextStyle": "white"
+    },
+  "sitemapLocation": "sitemap.json"
+}

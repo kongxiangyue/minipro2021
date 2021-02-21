@@ -1,0 +1,4 @@
+<!--pages/relative/relative.wxml-->
+<view class="container">
+<view class="item">使用相对定位</view>
+</view>

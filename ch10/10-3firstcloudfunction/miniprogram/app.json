@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/firstcloudfunction/firstcloudfunction"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "云开发QuickStart",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

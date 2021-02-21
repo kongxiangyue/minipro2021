@@ -1,0 +1,39 @@
+{
+  "pages": [
+      "pages/list/list",
+        "pages/me/me",
+  
+    "pages/setting/setting",
+    "pages/add/add",
+    "pages/detail/detail"
+
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D53C3E",
+    "navigationBarTitleText": "基于云开发的新闻小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#D53C3E",
+    "borderStyle": "black",
+    "backgroundColor": "#F9F9F9",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "首页",
+        "iconPath": "/img/bar/index0.jpg",
+        "selectedIconPath": "/img/bar/index1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/img/bar/aboutme0.jpg",
+        "selectedIconPath": "/img/bar/aboutme1.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

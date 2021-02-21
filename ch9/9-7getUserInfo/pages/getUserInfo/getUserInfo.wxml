@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="userinfo-nickname">{{userInfo.gender}}</text>
+      <text class="userinfo-nickname">{{userInfo.city}}</text>
+      <text class="userinfo-nickname">{{userInfo.province}}</text>
+      <text class="userinfo-nickname">{{userInfo.country}}</text>
+      <text class="userinfo-nickname">{{userInfo.language}}</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+.data{border:1px solid black;}
+.partition{margin-left: 10rpx;margin-bottom: 10rpx;}
+.arithmetic{font-size: 1.2rem;display: flex;flex-direction: row;}
+.bt{background-color: rgb(19, 202, 187);}
+.nei{font-size: 1.2rem;}

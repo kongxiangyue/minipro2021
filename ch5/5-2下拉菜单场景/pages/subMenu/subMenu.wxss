@@ -1,0 +1,78 @@
+/*页面溢出隐藏*/
+.page {
+  overflow: hidden;
+}
+/*导航外部样式*/
+.nav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+/*导航内部样式*/
+.nav-item {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  height: 90rpx;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border: 1px solid gray;
+}
+/*导航下拉图标*/
+.icon {
+  border: 10rpx solid transparent;
+  border-top: 10rpx solid gray;
+  margin-left: 12rpx;
+}
+/*下拉内部样式*/
+.list {
+  display: none;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 0 0 0 20rpx;
+  line-height: 100rpx;
+  background: white;
+}
+/*下拉内容样式*/
+.list view {
+  border-bottom: 1px solid gray;
+  font-size: 32rpx;
+}
+/*点击导航内容文字后的样式*/
+.nav-item.active .content {
+  color: skyblue;
+}
+/*点击导航下拉图标后的样式*/
+.nav-item.active .icon {
+  border-bottom: 10rpx solid skyblue;
+  border-top: 0;
+}
+/*下拉动画样式*/
+.down {
+  display: block;
+  animation: slidown 0.5s ease-in both;
+}
+@keyframes slidown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+/*收起动画样式*/
+.up {
+  display: block;
+  animation: slidup 0.5s ease-in both;
+}
+@keyframes slidup {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}

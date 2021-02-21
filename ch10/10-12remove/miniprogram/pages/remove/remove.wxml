@@ -1,0 +1,19 @@
+
+<view class="doc" bindtap="remove1">小程序端删除赵老师记录</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{remove1}}</text>
+</view>
+
+
+<view class="doc" bindtap="remove2">服务器端删除赵老师记录</view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">{{remove2}}</text>
+</view>
+
+
+
+
+
+
+
+
